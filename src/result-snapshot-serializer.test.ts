@@ -1,8 +1,8 @@
-import "./snapshots";
+import "./result-snapshot-serializer";
 
 import postcss from "postcss";
 
-describe("snapshots", () => {
+describe("result-snapshot-serializer", () => {
   it("serializes a snapshot of a postcss result", async () => {
     expect(
       await postcss({
