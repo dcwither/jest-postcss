@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "allowJs": true
+  },
+  "include": ["src/"]
+}
