@@ -1,10 +1,11 @@
-import { toMatchCSS } from "to-match-css";
+/* eslint-disable no-unused-vars */
+
 import "@types/jest";
 
 declare global {
   namespace jest {
     interface Matchers<R> {
-      toMatchCSS: typeof toMatchCSS;
+      toMatchCSS(css: string): R;
     }
   }
 }
