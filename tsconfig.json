@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["ES2015"],
     "target": "es5",
     "module": "ES6",
     "moduleResolution": "node",
@@ -7,10 +8,12 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "build",
+    "outDir": "dist",
     "rootDir": "./src",
+    "types": ["jest"],
+    "typeRoots": ["./typings"],
     "baseUrl": "./src",
     "allowJs": true
   },
-  "include": ["src/"]
+  "include": ["src/", "typings/index.d.ts"]
 }
