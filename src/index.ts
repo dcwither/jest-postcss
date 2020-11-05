@@ -1,1 +1,2 @@
-import "./snapshots";
+import "./extend-expect";
+import "./result-snapshot-serializer";
